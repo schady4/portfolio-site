@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="shortcut icon" href="./static/favicon.ico"> 
+	<link rel="stylesheet" href="./static/css/style.css">
+	<link rel="stylesheet"  href="./static/css/normalize.css" />
+	<link rel="stylesheet"  href="./static/css/demo.css" />
+	<link rel="stylesheet"  href="./static/css/component.css" />
+	<link rel="stylesheet"  href="./static/css/component1.css" />
+	<link rel="stylesheet"  href="./static/css/bio-style.css" />
+	<link rel="stylesheet" href="./static/css/component3.css" />
+	<link rel="stylesheet" href="./static/css/style2.css" />
+		<script src="./static/js/snap.svg-min.js"></script>
+	<script src="./static/js/modernizr.custom.js"></script>
+	
+	<title>Welcome</title>
+	
+
+</head>
+<body>
+	<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li class="gn-search-item">
+									<form id="frmSearch" class="search2" method="get" action="index.html" />
+									<input placeholder="Search" type="search" class="gn-search">
+									<a class="gn-icon gn-icon-search"><span>Search</span></a>
+									<script type="text/javascript">
+										document.getElementById('frmSearch').onsubmit = function() {
+										window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('txtSearch').value;
+										return false;
+										}
+										</script>
+								</li>
+								<li><a href="bio.html" class="gn-icon gn-icon-download">Bio</a></li>
+								<li><a href="photography.html" class="gn-icon gn-icon-download">Photography</a></li>
+								<li><a href="artwork.html" class="gn-icon gn-icon-download">Artwork</a></li>
+								<li><a href="work.html" class="gn-icon gn-icon-download">Work</a></li>
+								
+								<!--<li><a href="contact.html" class="gn-icon gn-icon-download">Contact</a></li>-->
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a href="index.html">Jarett Schadlich Design</a></li>
+				<!--<li><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HeaderEffects/"><span>Previous Demo</span></a></li>
+				<li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>-->
+			</ul>
+	
+<div class="main">
+				<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					<li><img src="../static/images/4.jpg" alt="image04"/></li>
+				</ul>
+				
+			</div>
+	<div class="body">		
+		<div class="animated bounceInDown">
+		<div class="avatar">
+			<img src="../static/img/avatar.jpg" alt="Avatar">
+		</div>
+
+		<div class="content1">
+			<h1 class="title">Jarett<br>Schadlich</h1>
+
+			<p>
+				Hi and Welcome<br>
+				My name is Jarett i'm a web developer and designer.
+			</p>
+
+			<ul class="social-icons">
+				<li><a class="twitter" href="https://twitter.com/schady4" title="Twitter">Twitter</a></li>
+				<li><a class="facebook" href="http://www.facebook.com/jarett.schadlich" title="Facebook">Facebook</a></li>
+				<li><a class="googleplus" href="https://plus.google.com/u/0/106728722092076015748/posts/p/pub" title="Google+">Google+</a></li>
+				
+			</ul>
+
+			<p>
+				Founder of NOFREETIME<br>
+				
+			</p>
+
+			<p>Contact? <a href="mailto:schady4@gmail.com">Email me</a>.</p>
+		</div>
+		</div> 
+		</div>
+		<!-- /container -->
+
+
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="./static/js/main.js"></script>
+	<script src="./static/js/classie.js"></script>
+	<script src="./static/js/gnmenu.js"></script>
+	<script src="./static/js/jquery.imagesloaded.min.js"></script>
+	<script src="./static/js/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+			});
+		</script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32182454-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
